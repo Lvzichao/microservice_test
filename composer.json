@@ -1,0 +1,23 @@
+{
+    "name": "yl/service_test",
+    "description": "优鲤-测试服务",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "php": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "lvzichao",
+            "email": "lvzichao@ulinkmall.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "YL\\ServiceTest\\": "src/YL/ServiceTest"
+        }
+    }
+}
